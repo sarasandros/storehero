@@ -1,0 +1,417 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*全デバイス共通*/
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+img{
+	vertical-align: bottom;
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-size: 100%;
+	color: #000;
+	font-family: "Gill Sans",serenity, kan48typos-std, sans-serif, "FOT-Seurat Pro B", "FOT-Seurat Pro DB", "FOT-Seurat Pro EB", "FOT-Seurat Pro L", "FOT-Seurat Pro M", "FOT-Skip Std B", "FOT-Skip Std D", "FOT-Skip Std E", "FOT-Skip Std L", "FOT-TelopMin Pro B", "Hiragino Maru Gothic ProN W4";
+	background: #fff;
+	line-height: 1.5;
+	padding: 5px;
+}
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+header{
+	height: 80px;
+}
+header h1{
+	width: 28%;
+	float: left;
+}
+header nav ul{
+	widht: 9.8%;
+	float: right;
+	margin-top: 30px
+}
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	display: block;
+	color: #000;
+	text-decoration: none;
+	margin-right: 3.06%;
+}
+header nav ul li:last-child a{
+	border: 1px solid #85c525;
+	color: #fff;
+	background: #85c525;
+	border-radius: 8px;
+	padding: 10px;
+	margin-top: -10px;
+}
+#top_main{
+	clear: both;
+	background: #e7f3ff;
+	height: 500px;
+	text-align: center;
+	
+}
+#top_main h2{
+	font-size: 150%;
+	color: #0080FF;
+	text-align: center;
+	font-weight:bold;
+	padding-top: 20px;
+}
+#top_main h3{
+	font-size: 125%;
+	color: #888888;
+	
+}
+.information_btn1{
+	clear: left;
+	border: 1px solid #85c525;
+	width: 86%;
+	text-align: center;
+	color: #fff;
+	background: #85c525;
+	line-height: 50px;
+	font-size: 125%;
+	border-radius: 8px;	
+	margin: 0 auto;
+}
+.information_btn1 a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+#right_side{
+	padding-top: 30px;
+	width: 90%;
+	margin: 0 auto;
+}
+main section h1{
+	font-size: 150%;
+	color: #0080FF; 
+	margin: 100px 0 10px 0;
+	text-align: center;
+}
+main section p{
+	font-size: 100%;
+	margin-top: 10px;
+	text-align: center;
+}
+#benefits h1{
+	font-size: 150%;
+	color: #0080FF; 
+	text-align: center;
+	margin: 30px 0 10px 0; 
+}
+#what h1{
+	margin: 30px 0 10px 0;
+}
+.chart li
+{
+	font-size: 100%;
+	margin-right: 5.102%;
+	text-align: center;
+}
+.initial{
+	padding-top: 50px;
+}
+.initial li{
+	font-size: 100%;
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+.data{
+	padding-top:50px;
+}
+.data li{
+	font-size: 100%;
+	margin-right: 50px;
+	text-align: center;
+	margin: 0 auto;
+	width: 90%;
+}
+#benefits{
+	position: relative;
+}
+.information_btn2{
+	clear: left;
+	border: 1px solid #85c525;
+	width: 86%;
+	text-align: center;
+	color: #fff;
+	background: #85c525;
+	line-height: 50px;
+	font-size: 125%;
+	border-radius: 8px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.information_btn2 a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+#what ul li{
+	font-size: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.information_btn3{
+	clear: left;
+	border: 1px solid #85c525;
+	width: 86%;
+	text-align: center;
+	color: #fff;
+	background: #85c525;
+	line-height: 50px;
+	font-size: 125%;
+	border-radius: 8px;
+	margin: 50px auto;
+	margin-bottom: 10px;
+}
+.information_btn3 a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+.contact{
+	clear: left;
+	border: 1px solid #0080ff;
+	width: 86%;
+	text-align: center;
+	color: #fff;
+	background: #0080ff;
+	line-height: 50px;
+	font-size: 125%;
+	border-radius: 8px;
+	margin: 10px auto;	
+	margin-bottom: 20px;
+}
+.contact a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+footer{
+	text-align: center;
+	line-height:40px;
+	background: #e7f3ff;
+}
+footer small{
+	font-size: 87.5%;
+}
+
+
+
+
+
+
+
+
+/*PC用デバイス*/
+@media screen and (min-width:960px){
+.wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+header{
+	height: 80px;
+}
+header h1{
+	width: 60px;
+	float: left;
+}
+header nav ul{
+	widht: 100px;
+	float: right;
+	margin-top: 30px;
+}
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	display: block;
+	color: #000;
+	text-decoration: none;
+	margin-right: 30px;
+}
+header nav ul li:last-child a{
+	border: 1px solid #85c525;
+	color: #fff;
+	background: #85c525;
+	border-radius: 8px;
+	padding: 10px;
+	margin-top: -10px;
+}
+#top_main{
+	clear: both;
+	background: #e7f3ff;
+	height: 550px;
+}
+#top_main h2{
+	font-size: 35px;
+	color: #0080FF;
+	width: 415px;
+	text-align: left;
+	font-weight: 300;
+}
+#top_main h3{
+	font-size: 20px;
+	color: #888888;
+	width: 415px;
+	text-align: left;
+}
+#left_side{
+	width: 384px;
+	float: left;
+	margin-top: 60px;
+}
+#right_side{
+	width: 446px;
+	float: right;
+	margin-top: 60px;
+}
+.information_btn1{
+	clear: left;
+	border: 1px solid #85c525;
+	width: 300px;
+	text-align: center;
+	color: #fff;
+	background: #85c525;
+	line-height: 50px;
+	font-size: 24px;
+	border-radius: 8px;		
+}
+main{
+	clear:both;
+}
+main section h1{
+	font-size: 30px;
+	color: #0080FF; 
+	margin: 30px 0;
+	text-align: center;
+	font-weight: 100;
+	
+}
+main section p{
+	font-size: 20px;
+	margin-top: 20px;
+}
+main section p:nth-of-type(1){
+		margin-bottom: 30px;
+	}
+main section p:nth-of-type(2){
+		margin-bottom: 60px;
+	}
+	#benefits h1{
+		font-size: 30px;
+	}
+.chart li
+{
+	float: left;
+	font-size: 20px;
+	width: 415px;
+	margin-right: 50px;
+}
+.chart li:first-child{
+	padding-top: 100px;
+}
+.initial{
+	clear: left;
+	padding-top:50px;
+}
+.initial li{
+	float: left;
+	font-size: 20px;
+	width: 415px;
+	margin-right: 50px;
+}
+.initial li:last-child{
+	padding-top: 100px;
+}
+.data{
+	clear: left;
+	padding-top:50px;
+}
+.data li{
+	float: left;
+	font-size: 20px;
+	width: 415px;
+	margin-right: 50px;
+}
+.data li:first-child{
+	padding-top: 100px;
+}
+.data li:last-child{
+	padding-bottom: 30px;	
+	}
+#benefits{
+	position: relative;
+}
+.information_btn2{
+	clear: left;
+	border: 1px solid #85c525;
+	width: 300px;
+	text-align: center;
+	color: #fff;
+	background: #85c525;
+	line-height: 50px;
+	font-size: 24px;
+	border-radius: 8px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+#what ul li{
+	float: left;
+	width: 475px;
+	font-size: 20px;
+}
+#what ul li:nth-of-type(odd){
+		margin-right: 30px;
+		margin-bottom: 30px;
+	}
+.information_btn3{
+	clear: left;
+	border: 1px solid #85c525;
+	width: 300px;
+	text-align: center;
+	color: #fff;
+	background: #85c525;
+	line-height: 50px;
+	font-size: 24px;
+	border-radius: 8px;
+	margin: 50px auto;
+	margin-bottom: 10px;
+}
+.contact{
+	clear: left;
+	border: 1px solid #0080ff;
+	width: 300px;
+	text-align: center;
+	color: #fff;
+	background: #0080ff;
+	line-height: 50px;
+	font-size: 24px;
+	border-radius: 8px;
+	margin: 10px auto;	
+	margin-bottom: 20px;
+}
+footer{
+	text-align: center;
+	line-height:40px;
+	background: #e7f3ff;
+}
+footer small{
+	font-size: 14px;
+}
+}
