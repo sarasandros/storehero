@@ -58,6 +58,7 @@ header nav ul li:last-child a{
 	background: #e7f3ff;
 	height: 500px;
 	text-align: center;
+    padding-bottom: 70px;
 	
 }
 #top_main h2{
@@ -94,11 +95,15 @@ header nav ul li:last-child a{
 	width: 90%;
 	margin: 0 auto;
 }
+
 main section h1{
 	font-size: 150%;
 	color: #0080FF; 
-	margin: 100px 0 10px 0;
 	text-align: center;
+	margin: 30px 0 10px 0;
+}
+main section:first-child h1{
+	padding-top: 40px;
 }
 main section p{
 	font-size: 100%;
@@ -109,10 +114,6 @@ main section p{
 	font-size: 150%;
 	color: #0080FF; 
 	text-align: center;
-	margin: 30px 0 10px 0; 
-}
-#what h1{
-	margin: 30px 0 10px 0;
 }
 .chart li
 {
@@ -186,31 +187,60 @@ main section p{
 }
 .contact{
 	clear: left;
-	border: 1px solid #0080ff;
-	width: 86%;
+	border: 1px solid #e7f3ff;
 	text-align: center;
-	color: #fff;
-	background: #0080ff;
+	color: #888888;
+	background: #e7f3ff;
 	line-height: 50px;
-	font-size: 125%;
+	font-size: 24px;
 	border-radius: 8px;
 	margin: 10px auto;	
 	margin-bottom: 20px;
 }
-.contact a{
-	display: block;
-	text-decoration: none;
-	color: #fff;
-}
+	.contact h1{
+	font-size: 30px;
+	color: #0080FF; 
+	text-align: center;
+	margin: 30px 0 10px 0;
+	font-weight: bold;
+	}
 footer{
 	text-align: center;
 	line-height:40px;
-	background: #e7f3ff;
 }
 footer small{
 	font-size: 87.5%;
 }
-
+.pagetop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}
+.pagetop a {
+    display: block;
+    background-color: #ccc;
+    text-align: center;
+    color: #222;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 10px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+.pagetop a:hover {
+    display: block;
+    background-color: #b2d1fb;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding:5px 10px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
 
 
 
@@ -257,29 +287,32 @@ header nav ul li:last-child a{
 	clear: both;
 	background: #e7f3ff;
 	height: 550px;
+	padding-bottom: 0;
 }
 #top_main h2{
 	font-size: 35px;
 	color: #0080FF;
 	width: 415px;
 	text-align: left;
-	font-weight: 300;
+	font-weight: bold;
 }
 #top_main h3{
 	font-size: 20px;
 	color: #888888;
 	width: 415px;
 	text-align: left;
+	font-weight: bold;
 }
 #left_side{
 	width: 384px;
 	float: left;
-	margin-top: 60px;
+	margin-top:30px;
 }
 #right_side{
 	width: 446px;
 	float: right;
 	margin-top: 60px;
+	padding-bottom: 80px;
 }
 .information_btn1{
 	clear: left;
@@ -290,18 +323,18 @@ header nav ul li:last-child a{
 	background: #85c525;
 	line-height: 50px;
 	font-size: 24px;
-	border-radius: 8px;		
+	border-radius: 8px;	
+	margin: 20px 0;
 }
 main{
 	clear:both;
 }
-main section h1{
+main section h1:first-child{
 	font-size: 30px;
 	color: #0080FF; 
-	margin: 30px 0;
+	padding: 40px 0 20px 0;
 	text-align: center;
-	font-weight: 100;
-	
+	font-weight: bold;
 }
 main section p{
 	font-size: 20px;
@@ -319,7 +352,7 @@ main section p:nth-of-type(2){
 .chart li
 {
 	float: left;
-	font-size: 20px;
+	font-size: 24px;
 	width: 415px;
 	margin-right: 50px;
 }
@@ -332,7 +365,7 @@ main section p:nth-of-type(2){
 }
 .initial li{
 	float: left;
-	font-size: 20px;
+	font-size: 24px;
 	width: 415px;
 	margin-right: 50px;
 }
@@ -345,12 +378,12 @@ main section p:nth-of-type(2){
 }
 .data li{
 	float: left;
-	font-size: 20px;
+	font-size: 24px;
 	width: 415px;
 	margin-right: 50px;
 }
 .data li:first-child{
-	padding-top: 100px;
+	padding-top: 60px;
 }
 .data li:last-child{
 	padding-bottom: 30px;	
@@ -395,21 +428,27 @@ main section p:nth-of-type(2){
 }
 .contact{
 	clear: left;
-	border: 1px solid #0080ff;
-	width: 300px;
+	border: 1px solid #e7f3ff;
 	text-align: center;
-	color: #fff;
-	background: #0080ff;
+	color: #888888;
+	background: #e7f3ff;
 	line-height: 50px;
 	font-size: 24px;
 	border-radius: 8px;
 	margin: 10px auto;	
 	margin-bottom: 20px;
+	margin-top: 50px;
 }
+	.contact h1{
+	font-size: 30px;
+	color: #0080FF; 
+	text-align: center;
+	margin: 30px 0 10px 0;
+	font-weight: bold;
+	}
 footer{
 	text-align: center;
 	line-height:40px;
-	background: #e7f3ff;
 }
 footer small{
 	font-size: 14px;
